@@ -1,6 +1,6 @@
 import pandas as pd
 #step1
-df = pd.read_csv('C:/Users/Егор/Desktop/task4 pandas/titanic.csv')
+df = pd.read_csv('titanic.csv')
 print('step1')
 print(df.shape); print(df.head()); df.info(); print(df.describe())
 
